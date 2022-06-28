@@ -12,7 +12,7 @@ Realization of a solo project
 
 ## See the project
 
-You can view the web page via this url [EvrardCV](https://boisterous-brigadeiros-bc680e.netlify.app/)
+You can view the web page via this url [Medium](https://boisterous-brigadeiros-bc680e.netlify.app/)
 
 ## Library / Toolkit
 * Html
