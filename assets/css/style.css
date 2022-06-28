@@ -126,6 +126,12 @@ hr {
   margin-right: 1rem;
 }
 
+.unduliner {
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--gray);
+  margin-bottom: 2rem;
+}
+
 /* generic */
 
 .article-author {
@@ -254,4 +260,76 @@ nav {
   padding: 1rem 0;
   margin-right: 1rem;
   outline: 0; /* delete the line around input */
+}
+
+/* content */
+
+.content {
+  margin: 3rem 0;
+  display: flex;
+  align-items: start;
+}
+
+.articles {
+  flex: auto;
+}
+
+.articles article {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "h3 img"
+  "p img"
+  "p2 img"
+  "p3 img";
+  margin-bottom: 2rem;
+}
+
+.articles article h3 {
+  grid-area: h3;
+}
+.articles article h3,
+.articles article p {
+  margin: 0.2rem 0;
+}
+
+.articles article img {
+  grid-area: img;
+}
+
+.articles article  .text-hint {
+  grid-area: p3;
+}
+
+.articles article  .article-author {
+  grid-area: p2;
+}
+
+.articles article  .article-content {
+  grid-area: p;
+}
+
+
+.popular {
+  flex: 350px;
+  padding: 0 3rem;
+  position: sticky;
+  top: 45px;
+}
+
+.popular ul li {
+  display: grid;
+  grid-template-columns: 50px auto;
+  place-items: center center;
+  margin-bottom: 1rem;
+
+}.popular ul li div:first-child {
+  font-size: 3rem;
+  color: var(--gray-hint);
+}
+
+.popular ul li h3,
+.popular ul li h3 {
+  margin: 0.2rem;
 }
