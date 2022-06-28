@@ -1,1 +1,30 @@
 # Medium
+ 
+<hr>
+
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+
+Realization of a solo project 
+
+![Preview](assets/img/Medium.png)
+
+## See the project
+
+You can view the web page via this url [EvrardCV](https://boisterous-brigadeiros-bc680e.netlify.app/)
+
+## Library / Toolkit
+* Html
+* Css
+
+
+
+## Author
+
+* **evrardsibo** _alias_ [@evrardsibo](https://github.com/evrardsibo)
+
+
+<hr>
+
+![php](https://media.giphy.com/media/fYk85LpbDZb1PBtBxx/giphy.gif)
